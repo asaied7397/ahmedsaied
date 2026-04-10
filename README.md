@@ -65,6 +65,8 @@ It includes sections for:
 
 Clone the repository:
 
-```bash
+```
+
 git clone https://github.com/asaied7397/ahmedsaied.git
+
 ```
