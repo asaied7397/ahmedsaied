@@ -72,68 +72,125 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "FreshCart E-Commerce App",
+    des: "A modern e-commerce frontend built with Next.js and TypeScript, focused on scalable UI structure and reusable components.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/react-icons.svg",
+      "/fm.svg",
+    ],
+    link: "https://route-ecommerce-next-gamma.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Social Media \'FaceHook\' App",
+    des: "A React JS social media app that showcases interactive frontend UI and component-based app structure.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/js.png",
+      "/react-icons.svg",
+      "/fm.svg",
+    ],
+    link: "https://react-social-media-app-ochre.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Photo Gallery \'Adasa\' App",
+    des: "A REAL React.js frontend App that is used for a photographer's portfolio, showcasing a modern and responsive design with reusable components.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    iconLists: [
+      "/re.svg",
+      "/bootstrap.svg",
+      "/js.png",
+      "/Font_Awesome.svg.png",
+      "/fm.svg",
+    ],
+    link: "https://adasa-seven.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Nutrition Plan Guide App",
+    des: "A vanilla JavaScript frontend app for a nutrition guide with a lightweight interface and content-driven experience.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    iconLists: [
+      "/js.png",
+      "/bootstrap.svg",
+      "/Font_Awesome.svg.png",
+      "/fm.svg",
+      "/gsap.svg",
+    ],
+    link: "https://asaied7397.github.io/nutri_plan/",
+  },
+  {
+    id: 5,
+    title: "3D Solar System Planets to Explore",
+    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using vanilla JavaScript and Nasa's API.",
+    img: "/p5.svg",
+    iconLists: [
+      "/js.png",
+      "/html.png",
+      "/css.webp",
+      "/Font_Awesome.svg.png",
+      "/gsap.svg",
+    ],
+    link: "https://asaied7397.github.io/COSMOS-Space-Dashboard/",
+  },
+  {
+    id: 6,
+    title: "Quiz Master - Interactive Quiz App",
+    des: "An engaging quiz app built with vanilla JavaScript, offering a fun and interactive way to test your knowledge across various topics.",
+    img: "/p6.svg",
+    iconLists: [
+      "/js.png",
+      "/html.png",
+      "/css.webp",
+      "/Font_Awesome.svg.png",
+      "/gsap.svg",
+    ],
+    link: "https://asaied7397.github.io/Quiz_App/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "Collaborating with Ahmed was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ahmed's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ahmed is the ideal partner.",
+    name: "Mina Michael",
     title: "Director of AlphaStream Technologies",
+    image: "/profile.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Ahmed was an outstanding experience from start to finish. He demonstrated a strong ability to translate our ideas into a clean, modern, and highly responsive interface. What impressed us the most was his attention to detail and his commitment to delivering exactly what was promised, on time. Ahmed was always proactive in suggesting improvements that enhanced both the user experience and performance. His professionalism and technical skills make him a valuable asset to any team.",
+    name: "Ahmed Hassan",
+    title: "Founder of NileTech Solutions",
+    image: "/profile2.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ahmed exceeded our expectations in every phase of the project. From the initial planning to the final delivery, he maintained clear communication and a structured workflow. His ability to build scalable and reusable components made a noticeable difference in the quality of our product. Beyond his technical expertise, Ahmed has a great sense of design and user experience, which helped us achieve a polished and modern interface. I would highly recommend him for any frontend development work.",
+    name: "Omar Khaled",
+    title: "Product Manager at Cairo Digital Hub",
+    image: "/profile3.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Ahmed was a smooth and highly productive process. He quickly understood our requirements and transformed them into a visually appealing and performance-optimized application. His work reflects both strong technical knowledge and a clear understanding of modern frontend standards. Ahmed consistently delivered high-quality results and was flexible when adapting to changes during development. We are extremely satisfied with the final outcome and look forward to working with him again in the future.",
+    name: "Youssef Mahmoud",
+    title: "Product Manager at Delta Innovations",
+    image: "/profile4.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Ahmed was an exceptional experience. He not only delivered a clean and modern interface, but also showed a deep understanding of user experience and performance optimization. Throughout the project, he was highly responsive, detail-oriented, and always open to feedback. What stood out the most was his ability to take ownership and suggest improvements that genuinely enhanced the final product. I would absolutely recommend Ahmed to anyone looking for a reliable and talented frontend developer.",
+    name: "Salma El-Sayed",
+    title: "UI/UX Lead at Creative Minds Studio",
+    image: "/profile5.jpg",
   },
 ];
 
@@ -174,7 +231,7 @@ export const workExperience = [
   {
     id: 1,
     title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Assisted in the development of a web-based platform using React.js and Next.js enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
@@ -182,14 +239,14 @@ export const workExperience = [
     id: 2,
     title: "Mobile App Dev - JSM Tech",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
@@ -205,13 +262,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/asaied7397",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/ahmed-saied-4a0244342/",
   },
 ];
