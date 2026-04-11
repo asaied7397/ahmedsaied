@@ -10,6 +10,7 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
+import Link from "next/link";
 
 export const BentoGrid = ({
   className,

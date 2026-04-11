@@ -50,6 +50,19 @@ const Hero = () => {
               position="right"
             />
           </a>
+
+          <a
+            href="https://drive.google.com/file/d/1nmpJzWOTyrbuGp2V-Pm8BDw0AusgfLMQ/view?usp=drivesdk"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4"
+          >
+            <MagicButton
+              title="Show my Resume"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
         </div>
       </div>
     </div>
